@@ -81,7 +81,7 @@ public class App {
             double throughput = (double) numOfProcess / totalExecutionTime;
 
             // For displaying the table
-            System.out.println("\nProcess\tArrival Time\tBurst Time\tCompletion Time\tWaiting Time\tTurnaround Time");
+            System.out.println("\nProcess\tArrival Time\tBurst Time\tCompletion Time\tTurnaround Time\tWaiting Time");
             for (int i = 0; i < numOfProcess; i++) {
                 System.out.println("P" + (i + 1) + "\t\t" + arrivalTimes[i] + "\t\t" + burstTimes[i] + "\t\t"
                         + completionTimes[i] + "\t\t" +turnAroundTimes[i] + "\t\t" + waitTimes[i] );
